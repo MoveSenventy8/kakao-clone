@@ -1,14 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="MoveSeventy8">
-    <meta name="description" content="Welcome to my Kakaoclone">
-    <title>This is my title</title>
-  </head>
-  <body>
-    <h1>This is my big title</h1>
-    <h6>This is my small title</h6>
-
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Friends</title>
+</head>
+<body>
+  <header>
+    <div class="header__top">
+      <div class="header__column">
+        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+        <i class="fa fa-wifi" aria-hidden="true"></i>
+      </div>
+      <div class="header__column">
+        <span class="header__time">18:38</span>
+      </div>
+      <div class="header__column">
+        <i class="fa fa-moon-o" aria-hidden="true"></i>
+        <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
+        <span class="header__battery">66%
+          <i class="fa fa-battery-three-quarters" aria-hidden="true"></i>
+        </span>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__column">
+        <span class="header__text">Manage</span>
+      </div>
+      <div class="header__column">
+        <span class="header__text">Friends <span class="header__number">1</span></span>
+      </div>
+      <div class="header__column">
+        <i class="fa fa-cog" aria-hidden="true"></i>
+      </div>
+    </div>
+  </header>
+  <main class="friends">
+    <div class="search-bar">
+      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Find friends, chats, plus Firends">
+    </div>
+    <section class="friends__section">
+      <header class="friends__section-header">
+        <h6 class="frieds__section-title">My profile</h6>
+      </header>
+      <div class="friends__section-rows">
+        <div class="friends__section-row">
+          <img src="" alt="">
+          <span class="friends__section-name">JSW</span>
+        </div>
+        <div class="friends__section-row">
+          <img src="" alt="">
+          <span class="friends__section-name">Friends' Names Display</span>
+        </div>
+      </div>
+    </section>
+    <section class="Friends__section">
+      <header>
+        <h6 class="friends__section-header"></h6>
+        <div class="friends__section-rows">
+          <div class="friends__section-row">
+            <div class="friends__section-column"></div>
+            <img src="" alt="">
+            <span class="friends__section-name">GORANI</span>
+          </div>
+          <span class="friends__section-tagline">
+            HAHAHAHA
+          </span>
+        </div>
+      </header>
+    </section>
+  </main>
+  <nav class="tab-bar">
+    <a href="index.html" class="tab-bar_tab tab-bar__tab--selected">
+      <i class="fa fa-user"></i>
+      <span class="tab-bar__title">Friends</span>
+    </a>
+    <a href="chats.html" class="tab-bar_tab">
+      <i class="fa fa-comment"></i>
+      <span class="tab-bar__title">Chats</span>
+    </a>
+    <a href="find.html" class="tab-bar_tab">
+      <i class="fa fa-search"></i>
+      <span class="tab-bar__title">Find</span>
+    </a>
+    <a href="more.html" class="tab-bar_tab">
+      <i class="fa fa-ellipsis-h"></i>
+      <span class="tab-bar__title">More</span>
+    </a>
+  </nav>
+</body>
 </html>
